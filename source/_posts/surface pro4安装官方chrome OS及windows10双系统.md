@@ -79,7 +79,7 @@ sudo bash chromeos-install.sh -src 替换为chromeOS官方恢复镜像的路径 
 
 ​		在chromeOS中打开 shell (CTRL+ALT+T打开crosh，输入shell回车)
 
- 		![image-20200826020712142](https://raw.githubusercontent.com/jerry1119/blogPics/master/img/image-20200826020712142.png)
+![image-20200826020712142](https://raw.githubusercontent.com/jerry1119/blogPics/master/img/image-20200826020712142.png)
 
 ​		输入lsblk，可以看到，我这里之前为chromeOS分配出来的30g硬盘空间名为nvme0n1p4
 
