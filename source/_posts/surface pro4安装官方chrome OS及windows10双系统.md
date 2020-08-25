@@ -35,7 +35,7 @@ sudo tar zxvf brunch_< version >.tar.gz
 sudo bash chromeos-install.sh -src 替换为chromeOS官方恢复镜像的路径 -dst chromeos.img
 ```
 
-​		执行成功后就得到一个名为chromeos.img的chromeOS系统镜像
+​		执行成功后就得到一个名为chromeos.img的chromeOS系统镜像，这里放一个我已经制作好了的img[下载链接](https://dotnetcore-my.sharepoint.com/:u:/g/personal/hejie_dotnetcore_onmicrosoft_com/EfhTvrtRIX1Eh9RLhnZg0CUBMUzJXjZFj_dhke6QQBQzkA?e=dZkrg0)，对应的是目前最新brunch和chromeOS83版本，如果不想自己制作可以跳过上面的步骤
 
 #### 		7.制作u盘启动盘
 
