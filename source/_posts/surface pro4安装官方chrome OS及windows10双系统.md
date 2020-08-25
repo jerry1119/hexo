@@ -41,7 +41,7 @@ sudo bash chromeos-install.sh -src 替换为chromeOS官方恢复镜像的路径 
 
 ​		推荐使用[balenaEtcher](https://www.balena.io/etcher/) 来制作，简单明了
 
-​		![image-20200825224742283](C:\Users\jiegege\AppData\Roaming\Typora\typora-user-images\image-20200825224742283.png)
+​		![image-20200825224742283](https://raw.githubusercontent.com/jerry1119/blogPics/master/img/image-20200825224742283.png)
 
 ​		第一步选择刚才制作好的chromeos.img ，第二步选择你的u盘，第三部点击Flash等待几分钟即可，
 
@@ -51,19 +51,19 @@ sudo bash chromeos-install.sh -src 替换为chromeOS官方恢复镜像的路径 
 
 ​		左下角搜索栏输入BitLocker，如果为开启状态，将其关闭
 
-​		![image-20200825234914784](C:\Users\jiegege\AppData\Roaming\Typora\typora-user-images\image-20200825234914784.png)
+​		![image-20200825234914784](https://raw.githubusercontent.com/jerry1119/blogPics/master/img/image-20200825234914784.png)
 
 #### 		9.在windows中为chromeOS新建一个硬盘分区
 
 ​		进入磁盘管理，右键选择压缩卷，分配大小至少为14g以上，建议30g左右，对分配出来的分区右键选择新建简单卷，格式选择NTFS
 
-![image-20200825232446427](C:\Users\jiegege\AppData\Roaming\Typora\typora-user-images\image-20200825232446427.png)
+![image-20200825232446427](https://raw.githubusercontent.com/jerry1119/blogPics/master/img/image-20200825232446427.png)
 
 #### 		10.进入UEFI关闭surface pro安全启动
 
 ​		长按音量+键和电源键，大约十几秒，即可进入UEFI设置菜单
 
-<img src="https://msegceporticoprodassets.blob.core.windows.net/asset-blobs/4560390_en_1" alt="Surface UEFI 安全屏幕的屏幕截图。" style="zoom:150%;" />
+<img src="https://raw.githubusercontent.com/jerry1119/blogPics/master/img/4560390_en_1" alt="Surface UEFI 安全屏幕的屏幕截图。" style="zoom:150%;" />
 
 ​		在Secure Boot这里关闭安全启动
 
@@ -71,7 +71,7 @@ sudo bash chromeos-install.sh -src 替换为chromeOS官方恢复镜像的路径 
 
 ​		依次进入windows设置->恢复->高级启动->立即重新启动，然后选择从u盘启动
 
-![image-20200825231030328](C:\Users\jiegege\AppData\Roaming\Typora\typora-user-images\image-20200825231030328.png)
+![image-20200825231030328](https://raw.githubusercontent.com/jerry1119/blogPics/master/img/image-20200825231030328.png)
 
 ​		这个时候chromeOS已经安装在u盘中，可以使用了，但是想要直接将它安装在硬盘中，还需要额外步骤		
 
@@ -79,7 +79,7 @@ sudo bash chromeos-install.sh -src 替换为chromeOS官方恢复镜像的路径 
 
 ​		在chromeOS中打开 shell (CTRL+ALT+T打开crosh，输入shell回车)
 
- 		![Screenshot 2020-08-25 at 23.38.00](Z:\Screenshot 2020-08-25 at 23.38.00.png)
+ 		![Screenshot 2020-08-25 at 23.38.00](https://raw.githubusercontent.com/jerry1119/blogPics/master/img/Screenshot%202020-08-25%20at%2023.38.00.png)
 
 ​		输入lsblk，可以看到，我这里之前为chromeOS分配出来的30g硬盘空间名为nvme0n1p4
 
